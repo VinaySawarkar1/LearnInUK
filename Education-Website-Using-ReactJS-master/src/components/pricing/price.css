@@ -1,0 +1,166 @@
+.price .items {
+  padding: 40px;
+  text-align: center;
+}
+.price h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #1eb2a6;
+}
+.price h1 span {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #000;
+}
+.price p {
+  color: grey;
+  margin: 40px 0;
+}
+/*--------------faq-------------*/
+.faq .container {
+  max-width: 70%;
+  border-radius: 5px;
+}
+.faq .box {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.faq button {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 20px;
+}
+.faq h2 {
+  font-weight: 500;
+}
+.faq p {
+  padding: 20px;
+}
+.faq .accordion:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+/*--------------faq-------------*/
+/* General styles */
+
+
+.container {
+  max-width: 1000px;
+  padding: 20px;
+}
+#sec{
+  margin-left: 50PX;
+  margin-right: 50px;
+}
+
+.uk-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* About the UK section */
+.about-uk {
+  margin-bottom: 50px;
+}
+
+.uk-information-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.uk-information-card {
+  width: 30%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.uk-information-card h3 {
+  margin-bottom: 10px;
+}
+
+/* Visa and Immigration section */
+.visa-immigration {
+  margin-bottom: 50px;
+}
+
+.visa-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.visa-list li {
+  margin-bottom: 10px;
+}
+
+.visa-list li strong {
+  font-weight: bold;
+}
+
+/* Finding a place to live section */
+.finding-accommodation {
+  margin-bottom: 50px;
+}
+
+.accommodation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accommodation-list li {
+  margin-bottom: 10px;
+}
+
+.accommodation-image {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Cost of living section */
+.cost-of-living {
+  margin-bottom: 50px;
+}
+
+.cost-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cost-list li {
+  margin-bottom: 10px;
+}
+
+/* Additional resources section */
+.additional-resources {
+  margin-bottom: 50px;
+}
+
+.resources-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resources-list li {
+  margin-bottom: 10px;
+}
+
+.resources-list li a {
+  text-decoration: none;
+}
+
+/* Conclusion section */
+.conclusion {
+  text-align: center;
+}

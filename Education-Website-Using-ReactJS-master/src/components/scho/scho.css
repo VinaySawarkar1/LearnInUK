@@ -1,0 +1,51 @@
+.scholarship-funding-section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .scholarship-funding-title {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .scholarship-funding-intro {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .scholarship-funding-list {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .scholarship-funding-list-item {
+    margin-bottom: 10px;
+  }
+  
+  .scholarship-funding-link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .scholarship-funding-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Ensures all content (headings, paragraphs, lists) aligns to the left */
+  .scholarship-funding-section p,
+  .scholarship-funding-section h1,
+  .scholarship-funding-section h2,
+  .scholarship-funding-list + .scholarship-funding-list {
+    margin-top: 20px;
+  }
+  
+  .scholarship-funding-additional-resources {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  

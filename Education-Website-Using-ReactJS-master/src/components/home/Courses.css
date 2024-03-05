@@ -1,0 +1,41 @@
+.popular-courses-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f8f8; /* Light grey for a subtle UK feel */
+  }
+  
+  .uk-heading {
+    color: #C61D20; /* UK Red */
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .courses-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow courses to wrap onto multiple lines */
+  }
+  
+  .course-item {
+    flex: 1 0 33.33%; /* Ensure each course takes up 1/3rd of the row width */
+    padding: 15px;
+    border: 1px solid #ddd; /* Optional border for slight separation */
+    border-radius: 5px;
+  }
+  
+  .course-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .course-item p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .row-divider {
+    width: 100%; /* Divider spans the entire row */
+    height: 1px; /* Thin horizontal line */
+    background-color: #ddd; /* Light grey color for the divider */
+    margin: 10px 0; /* Add some spacing above and below the divider */
+  }
+  

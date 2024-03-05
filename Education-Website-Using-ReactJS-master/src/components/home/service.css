@@ -1,0 +1,108 @@
+.services-and-support {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 40px;
+  }
+  
+
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .service-item {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    list-style: none;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    width: 100%; 
+  }
+  .service-content {
+    color: #C61D20; /* UK red */
+
+  }
+  .service-text {
+    flex: 1; /* Allow the content to take up available space */
+    margin-right: 20px; /* Space between text and image */
+
+  }
+  
+  .service-icon {
+    width: 380px; /* Adjust as needed */
+    height: 200px;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .service-item {
+      /* Adjust layout for smaller screens if needed */
+    }
+  }
+  
+  .free-services-section1 {
+  text-align: center;
+  padding: 40px;
+  background-color: #f8f8f8; /* Light grey for a subtle UK feel */
+}
+
+.uk-heading1{
+  color: #C61D20; /* UK Red */
+  font-weight: bolder;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.services-description1 {
+  margin-bottom: 20px;
+}
+
+.services-list {
+  list-style-type: disc; /* Use discs for the list items */
+  margin-left: 40px;
+}
+.list3{
+  font-weight: bold;
+}
+
+.benefits-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f8f8; /* Light grey for a subtle UK feel */
+  }
+  
+
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .benefit-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .benefit-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .benefit-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .benefit-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,93 @@
+.container1 {
+    background-color: #f8f8f8; /* Light blue */
+    padding: 20px;
+    display: flex; /* Horizontal layout */
+    flex-wrap: wrap; /* Wrap cards to multiple rows */
+    justify-content: center; /* Optional: Center cards horizontally */
+  }
+  
+  .university-card1 {
+    width: calc(33.33% - 20px); /* Adjusted for 3 cards per row */
+    margin: 10px 10px 0 0; /* Margin for spacing and responsiveness */
+    background-color: #F0F8FF;
+    box-shadow: 0 2px 5px #C61D20; /* Subtle shadow */
+    transition: transform 0.3s ease-in-out;
+    border:#C61D20;
+    cursor: pointer;
+    border-radius: 5%;
+    margin: 9px;
+  }
+  
+  .university-card1:hover {
+    transform: scale(1.06); /* Zoom out slightly on hover */
+  }
+  
+  .card-image1 {
+    width: 100%;
+    height: 200px; /* Adjust image height as needed */
+    object-fit: cover; /* Cover the card with the image */
+  }
+  
+  .card-content1 {
+    padding: 15px;
+  }
+  
+  .card-content1 h3 {
+    margin-bottom: 5px;
+    color: #C61D20;
+  }
+  .container1 {
+    padding: 20px;
+  }
+  
+  .h21 {
+    text-align: center; /* Center align the heading */
+margin: 2%;
+font-size: x-large;
+  }
+  
+  .grid-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribute cards evenly */
+  }
+  
+  .university-card1 {
+    width: 30%; /* Adjust width as needed */
+    margin: 10px;
+    background-color: #fafcff;
+    box-shadow: 0 4px 5px rgba(52, 52, 52, 0.308);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .university-card1:hover {
+    transform: scale(1.02); /* Zoom out slightly on hover */
+  }
+  
+  .card-image1 {
+    width: 100%;
+    height: 200px; /* Adjust image height as needed */
+    object-fit: cover; /* Cover the card with the image */
+  }
+  
+  .card-content1 {
+    padding: 15px;
+  }
+  
+  .card-content1 h3 {
+    margin-bottom: 5px;
+  }
+  
+  .button1 {
+    display: block; /* Display the button on its own line */
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f51b5; /* Adjust button color */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

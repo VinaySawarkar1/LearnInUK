@@ -1,0 +1,135 @@
+/* ... Basic styles omitted for brevity ... */
+
+.after-study-uk-page {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hero-intro {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.career-opportunities,
+.visa-immigration,
+/* Additional sections */
+.finding-accommodation,
+.cost-of-living,
+.healthcare,
+.banking-finance,
+.cultural-integration,
+.success-stories {
+  margin-bottom: 40px;
+}
+
+.career-paths {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.career-card {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.career-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.career-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.career-card p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.career-card p i {
+  margin-right: 5px;
+  color: #333;
+}
+
+.visa-list,
+.accommodation-list,
+.cost-list,
+.healthcare-list,
+.banking-list,
+.cultural-list {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.visa-list li,
+.accommodation-list li,
+.cost-list li,
+.healthcare-list li,
+.banking-list li,
+.cultural-list li {
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.success-stories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.success-story {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.success-story:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.success-story h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.success-story p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ... Additional styling for specific sections as needed ... */
